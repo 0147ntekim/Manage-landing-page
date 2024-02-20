@@ -15,11 +15,11 @@ const Footer = () => {
                 <img src={logos} alt="fotter logo" />
 
                 <ul className="w-full flex flex-row justify-between items-center">
-                    <li className="cursor-pointer"><Link to="https://www.facebook.com"><img className="hover:text-[#f25f3a]" src={iconFacebook} alt="" /></Link></li>
-                    <li className="cursor-pointer"><Link to="https://www.twitter.com"><img className="hover:text-[#f25f3a]" src={iconTwitter} alt="" /></Link></li>
-                    <li className="cursor-pointer"><Link to="https://www.instagram.com"><img className="hover:text-[#f25f3a]" src={iconIg} alt="" /></Link></li>
-                    <li className="cursor-pointer"><Link to="https://www.youtube.com"><img className="hover:text-[#f25f3a]" src={iconYouTube} alt="" /></Link></li>
-                    <li className="cursor-pointer"><Link to="https://www.pinterest.com"><img className="hover:text-[#f25f3a]" src={iconPinterest} alt="" /></Link></li>
+                    <li className="cursor-pointer"><Link to="https://www.facebook.com"><img className="hover:bg-[#f25f3a]" src={iconFacebook} alt="" /></Link></li>
+                    <li className="cursor-pointer"><Link to="https://www.twitter.com"><img className="hover:bg-[#f25f3a]" src={iconTwitter} alt="" /></Link></li>
+                    <li className="cursor-pointer"><Link to="https://www.instagram.com"><img className="hover:bg-[#f25f3a]" src={iconIg} alt="" /></Link></li>
+                    <li className="cursor-pointer"><Link to="https://www.youtube.com"><img className="hover:bg-[#f25f3a]" src={iconYouTube} alt="" /></Link></li>
+                    <li className="cursor-pointer"><Link to="https://www.pinterest.com"><img className="hover:bg-[#f25f3a]" src={iconPinterest} alt="" /></Link></li>
 
                 </ul>
             </div>
@@ -38,10 +38,10 @@ const Footer = () => {
             </div>
             
             <div className="w-[100%] md:w-[30%] max-[769px]:h-[15vh] min-[720px]:h-[10vh] h-[15vh] md:h-[20vh] flex flex-col justify-between items-center">
-                <div className=" w-full  flex flex-row justify-between">
+                <form className=" w-full  flex flex-row justify-between">
                     <input className="search w-[74%] h-[40px] hover:border-none rounded-3xl" type="search" placeholder="updates in your inbox" />
-                    <button className="w-[24%] h-[40px] rounded-3xl bg-[#f25f3a] text-[#ffffff] capitalize text-[20px]">go</button>
-                </div>
+                    <button className="extras w-[24%] h-[40px] rounded-3xl bg-[#f25f3a] text-[#ffffff] capitalize text-[20px]">go</button>
+                </form>
                 
                 <p className="text-center max-[769px]:text-[14px] min-[720px]:text-[19px] md:text-[14px]  text-[gray] capitalize">copyright 2020. all rights reservered</p>
             </div>

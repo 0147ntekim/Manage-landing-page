@@ -75,7 +75,7 @@ const Testimonials = () => {
           </Swiper>
           
           <div className="w-full mt-[50px] h-[10vh] flex justify-center items-center">
-            <button className="w-[30%] sm:w-[25%] md:w-[15%] h-[40px] bg-[#f25f3a] rounded-full baseline hover:bg-brightRedLight">
+            <button className="extras w-[30%] sm:w-[25%] md:w-[15%] h-[40px] bg-[#f25f3a] rounded-full baseline hover:bg-brightRedLight">
               <a href="/#" className=" text-white ">
                 Get Started
               </a>

@@ -5,7 +5,7 @@ const Simplify = () => {
                 Simplify how your team works today.
             </h2>
 
-            <button className='w-[45%] sm:w-[25%] md:w-[15%] h-[40px] rounded-full items-center bg-[#ffffff] font-display max-[769px]:text-[16px] min-[720px]:text-[18px] md:text-[16px] sm:text-[13px] border-2 border-[#e24e29] capitalize text-[#F25F3A]'>
+            <button className='extrass w-[45%] sm:w-[25%] md:w-[15%] h-[40px] rounded-full items-center bg-[#ffffff] font-display max-[769px]:text-[16px] min-[720px]:text-[18px] md:text-[16px] sm:text-[13px] border-2 border-[#e24e29] capitalize text-[#F25F3A]'>
                 get started
             </button>
         </div>

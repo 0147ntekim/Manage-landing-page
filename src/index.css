@@ -22,6 +22,10 @@
   padding-left: 15px;
 }
 
+.search::placeholder:focus {
+  color: #F25F3A !important;
+}
+
 .swiper-container {
   width: 80%;
 }
@@ -36,4 +40,13 @@
   .swiper-container {
     width: 100%;
   }
+}
+
+
+.extras:hover {
+  background-color: #f8876a;
+}
+
+.extrass:hover{
+  background-color: white;
 }

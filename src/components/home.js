@@ -15,7 +15,7 @@ const Home = () => {
                     keeping the larger team goals in view
                 </p>
 
-                <button className='w-[40%] h-[40px] rounded-full items-center bg-[#F25F3A] font-display text-[13px] border-2 border-[#e24e29] capitalize text-[#ffffff]'>
+                <button className='extras w-[40%] h-[40px] rounded-full items-center bg-[#F25F3A] font-display text-[13px] border-2 border-[#e24e29] capitalize text-[#ffffff]'>
                     get started
                 </button>
             </div>
